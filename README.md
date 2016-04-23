@@ -26,7 +26,7 @@ Where the number passed as the `complete` variable is the current progress and t
 statisticsView.setNumberOfObjectivesCompleted(10, outOf:20)
 ```
 
-**Styling the view:**
+**Styling the view:**  
 Methods are available to set the font, attributed text or plain text for the labels of the view.
 
 
