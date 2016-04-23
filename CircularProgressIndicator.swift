@@ -122,7 +122,7 @@ class CircularProgressIndicator: UIView {
 }
 
 // MARK: - Public Interface
-extension ObjectivesCompletedView {
+extension CircularProgressIndicator {
   
   /**
    Sets the current state of the dial
