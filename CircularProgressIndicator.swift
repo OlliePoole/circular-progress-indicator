@@ -66,7 +66,7 @@ class CircularProgressIndicator: UIView {
     
     
     // Add label for total attempted
-    totalCompletedLabel.font = ThemeManager.Fonts.Light(56)
+    totalCompletedLabel.font = ThemeManager.Fonts.UltraLight(56)
     addSubview(totalCompletedLabel)
     
     percentageLabel.font = ThemeManager.Fonts.Book(20)
@@ -79,7 +79,7 @@ class CircularProgressIndicator: UIView {
   override func drawRect(rect: CGRect) {
     // Draw dial
     let center = CGPointMake(rect.width / 2, rect.height / 2)
-    let radius = (rect.width / 2) - 30 // for some side padding
+    let radius = (rect.height / 2) - 10 // for some side padding
     
     backgroundBezierPath = UIBezierPath(
       arcCenter: center,
